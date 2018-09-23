@@ -134,7 +134,7 @@ a:focus {
     }
 
     .navbar-custom.top-nav-collapse {
-        border-bottom: 1px solid rgba(255,255,255,.3);
+        border-bottom: 0px solid rgba(255,255,255,.3);
     }
 }
 
@@ -179,6 +179,14 @@ a:focus {
     .intro .intro-body .intro-text {
         font-size: 25px;
     }
+}
+
+.nav-logo {
+    width: 35px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    margin-top: -10px;
 }
 
 .btn-circle {
