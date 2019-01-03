@@ -1,4 +1,5 @@
-    <!-- Intro Header -->
+    <!-- Website Header
+        For changes to site title and/or site description, see _config.yml file.-->
     <header class="intro">
         <div class="intro-body">
             <div class="container">
@@ -6,9 +7,10 @@
                     <div class="col-md-8 col-md-offset-2">
                         <h1 class="brand-heading">{{ site.title }}</h1>
                         <p class="intro-text">{{ site.description }}<br>
-                        <a href="#announcements" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
+                        <!--Button going to next section of the page; if order of sections is changed and the next section is not the original "#announcements" section, change the following href to the appropriate section. For changes to animation speed, etc. see grayscale.css file.-->
+                            <a href="#announcements" class="btn btn-circle page-scroll">
+                                <i class="fa fa-angle-double-down animated"></i>
+                            </a>
                     </div>
                 </div>
             </div>

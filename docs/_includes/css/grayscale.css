@@ -28,13 +28,21 @@ h2 {
 
 h3,
 h4,
-h5,
-h6 {
+h5 {
     margin: 0 0 35px;
     text-transform: ;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
+}
+
+h6 {
+    margin: 0 0 35px;
+    text-transform: ;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: right;
 }
 
 p {
@@ -49,6 +57,10 @@ p {
         font-size: 20px;
         line-height: 1.6;
     }
+}
+
+b {
+    color: #fff;
 }
 
 a {
@@ -160,7 +172,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(img/background.jpg) no-repeat bottom center scroll;
+    background: url(img/header-bg.jpg) no-repeat bottom center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -274,11 +286,23 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
+.bursary-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(img/bursary-bg.jpg) no-repeat center center scroll;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.about-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(img/about-bg.jpg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -294,11 +318,15 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 200px;
+        padding-top: 100px;
     }
 
-    .download-section {
-        padding: 100px 0;
+    .bursary-section {
+        padding: 200px 0;
+    }
+
+    .about-section {
+        padding: 200px 0;
     }
 
     #map {
